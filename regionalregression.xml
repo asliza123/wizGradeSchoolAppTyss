@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="3" name="Test">
+    <classes>
+      <class name="com.wizGradeSchoolapp.practice.PracticeTest">
+      <methods> 
+      <include name="createContactTest"/>
+      </methods>
+      </class>
+      <class name="com.wizGradeSchoolapp.practice.PracticeTest1">
+      <methods> 
+      <include name="createTaskTest"/>
+      </methods>
+      </class>
+      <class name="com.wizGradeSchoolapp.practice.practiceTest2">
+      <methods> 
+      <include name="createProjectTest"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
